@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNetExtensions.Tests", "OpenNetExtensions.Tests\OpenNetExtensions.Tests.csproj", "{BAD4092E-31F8-466F-9742-4F0A0BFC5B44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNetExtensions", "OpenNetExtensions\OpenNetExtensions.csproj", "{FC92A81F-FA9F-436E-B034-E338D321E2A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD4092E-31F8-466F-9742-4F0A0BFC5B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD4092E-31F8-466F-9742-4F0A0BFC5B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD4092E-31F8-466F-9742-4F0A0BFC5B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD4092E-31F8-466F-9742-4F0A0BFC5B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC92A81F-FA9F-436E-B034-E338D321E2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC92A81F-FA9F-436E-B034-E338D321E2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC92A81F-FA9F-436E-B034-E338D321E2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC92A81F-FA9F-436E-B034-E338D321E2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
