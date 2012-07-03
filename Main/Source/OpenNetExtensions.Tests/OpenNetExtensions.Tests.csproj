@@ -64,12 +64,6 @@
     <Compile Include="ExtensionMethods\StringExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenNetExtensions\OpenNetExtensions.csproj">
-      <Project>{FC92A81F-FA9F-436E-B034-E338D321E2A7}</Project>
-      <Name>OpenNetExtensions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
@@ -90,6 +84,12 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenNetExtensions.Portable\OpenNetExtensions.Portable.csproj">
+      <Project>{b921fd4e-32cc-4493-8d31-4f78dbf67f5f}</Project>
+      <Name>OpenNetExtensions.Portable</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
